@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item
+        android:id="@+id/direction"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/share"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/payment"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/share"
+        android:showAsAction="always"/>
+
+
+</menu>

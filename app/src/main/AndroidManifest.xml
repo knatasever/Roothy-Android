@@ -1,0 +1,57 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mcfly_roothy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <supports-screens
+
+        android:largeScreens="true"
+
+        android:normalScreens="true"
+
+        android:anyDensity="false" />
+    <compatible-screens>
+        <!-- all small size screens -->
+        <screen android:screenSize="normal" android:screenDensity="ldpi" />
+        <screen android:screenSize="normal" android:screenDensity="mdpi" />
+        <screen android:screenSize="large" android:screenDensity="hdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
+        <!-- all normal size screens -->
+
+    </compatible-screens>
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+ 
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/roothy"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mcfly_roothy.Login"
+            android:label="@string/app_name"
+            android:icon="@drawable/roothy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mcfly_roothy.Distributor"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mcfly_roothy.SalesDetails"
+            android:parentActivityName=".Distributor" >
+        </activity>
+        <activity
+            android:name="com.mcfly_roothy.LogisticDetails"
+            android:parentActivityName=".Distributor" >
+        </activity>
+    </application>
+</manifest>

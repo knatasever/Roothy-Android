@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_photos.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_photos.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_home.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_contact.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_contact.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\background_selected.9.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\background_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_refresh.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\background_pressed.9.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\background_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\background_disabled_selected.9.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\background_disabled_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_about.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_about.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_services.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_services.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_share.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_directions.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_directions.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_map.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-xxhdpi\\ic_map.png"
+    }
+]

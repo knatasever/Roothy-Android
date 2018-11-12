@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\knata\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\knata\Desktop\projeler\androidRoothy\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_8690e1d7f4d5b5472c7476282d819cbde75e072d.jar" />
+    </item>
+    <item
+        jar="C:\Users\knata\Desktop\projeler\androidRoothy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ac5d9dace551f2676a779835098fab653bcc1a24">
+        <dex dex="C:\Users\knata\Desktop\projeler\androidRoothy\app\build\intermediates\pre-dexed\debug\instant-run_cbf3c67ca286d8e34b75a9f5c406fca5051f6d77.jar" />
+    </item>
+    <item
+        jar="C:\Users\knata\Desktop\projeler\androidRoothy\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\knata\Desktop\projeler\androidRoothy\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_4a5c254cd735b9b79f35060b5e13950079ca9160.jar" />
+    </item>
+    <item
+        jar="C:\Users\knata\Desktop\projeler\androidRoothy\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\knata\Desktop\projeler\androidRoothy\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_11fe5fc826512f4c8c5ece3acad8ca085c6b99c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\knata\Desktop\projeler\androidRoothy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cd40c151f8a368b39cf8dbcc41e53131039a1dec">
+        <dex dex="C:\Users\knata\Desktop\projeler\androidRoothy\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_44fcea90dd8389df1547c64124410a64ec4d1027.jar" />
+    </item>
+
+</items>

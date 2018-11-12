@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="nav_drawer_icons">
+        <item>@drawable/calendar</item>
+        <item>@drawable/calendar</item>
+        <item>@drawable/ic_services</item>
+        <item>@drawable/ic_map</item>
+        <item>@drawable/ic_contact</item>
+        <item>@drawable/ic_home</item>
+    </array>
+    <string-array name="nav_drawer_items">
+        <item>Fatura Listesi</item>
+        <item>Tahsilat Listesi</item>
+        <item>Çıkış</item>
+    </string-array>
+    <string-array name="spinnerarrays1">
+        <item>Ödeme Tipi 1 Seç</item>
+        <item>Nakit</item>
+        <item>Kredi Kartı</item>
+        <item>Veresi - Açık Hesap</item>
+        <item>Senet</item>
+        <item>Fatura İptal</item>
+    </string-array>
+    <string-array name="spinnerarrays2">
+        <item>Ödeme Tipi 2 Seç</item>
+        <item>Nakit</item>
+        <item>Kredi Kartı</item>
+        <item>Veresi - Açık Hesap</item>
+        <item>Senet</item>
+        <item>Ödeme Tipi 2 İptal</item>
+    </string-array>
+    <color name="accent_material_light">#80d8ff</color>
+    <color name="acikmavi">#a3423b</color>
+    <color name="bordo">#a3423b</color>
+    <color name="colorPrimaryDark">#e1babb</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="holo_light_primary">#03a9f4</color>
+    <color name="lacivert">#03639e</color>
+    <color name="list_background">#c5c4c4</color>
+    <color name="list_background_pressed">#a3423b</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_item_title">#FFFFFF</color>
+    <color name="pembe">#e1babb</color>
+    <color name="primary_dark_material_light">#e7f1f8</color>
+    <color name="primary_material_light">#a3423b</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btnlar">5dp</dimen>
+    <dimen name="info">200dp</dimen>
+    <dimen name="item">16dp</dimen>
+    <dimen name="listitem">75dp</dimen>
+    <dimen name="loginpage">400dp</dimen>
+    <dimen name="s_detailinfo">25dp</dimen>
+    <string name="app_name">Roothy</string>
+    <string name="exit">Exit</string>
+    <string name="exitmessage">Are you want to exit?</string>
+    <string name="getbillsurljson">http://www.mcfly-roothy.com/GetData.aspx</string>
+    <string name="getloginurljson">http://www.mcfly-roothy.com/kullaniciKontrol.aspx</string>
+    <string name="internet_error">İnternete Bağlandığınızda Bir Hata Oluştu.\nAn error occurred while establishing a connection to the Internet.</string>
+    <string name="load">Load</string>
+    <string name="loading">Loading</string>
+    <string name="location">Location</string>
+    <string name="login_failed">Giriş Başarısız!</string>
+    <string name="menutitleblogspot">Blogspot</string>
+    <string name="menutitlecontact">Contact</string>
+    <string name="menutitlefacebook">Facebook</string>
+    <string name="menutitlefacebookpage">Facebook Page</string>
+    <string name="menutitlegithub">GitHub</string>
+    <string name="menutitlegoogleplay">Googleplay</string>
+    <string name="menutitlegoogleplus">Google+</string>
+    <string name="menutitlelinkedin">Linkedin</string>
+    <string name="menutitletwitter">Twitter</string>
+    <string name="menutitlewebsite">Web Site</string>
+    <string name="menutitleyoutube">Youtube</string>
+    <string name="no">No</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="reload">Reload</string>
+    <string name="select_the_share">Select The Share</string>
+    <string name="sent_payment">Ödeme Gönderildi.</string>
+    <string name="setbillsurljson">http://www.mcfly-roothy.com/SetData.aspx</string>
+    <string name="share">Share</string>
+    <string name="spinnerprompt1">Ödeme Tipi 1 Seç</string>
+    <string name="spinnerprompt2">Ödeme Tipi 2 Seç</string>
+    <string name="subject">Roothy Android Application</string>
+    <string name="textViewcurrencyerror">Error</string>
+    <string name="try_again_don_t_send_payment">Tekrar Dene! Tahsilat Gönderilemedi...</string>
+    <string name="yes">Yes</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="roothy" parent="AppBaseTheme"/>
+</resources>

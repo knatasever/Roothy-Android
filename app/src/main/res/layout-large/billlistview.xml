@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView7"
+            android:background="@drawable/ok_5dp"
+            android:layout_weight="0.04" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/relativeLayout2"
+            android:layout_alignParentTop="true"
+            android:paddingTop="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/musadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müşteri Adı: "
+                android:textSize="12dp"
+                android:paddingLeft="30dp" />
+
+            <TextView
+                android:id="@+id/fisno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiş No: "
+                android:textSize="12dp"
+                android:layout_below="@+id/muskodu"
+                android:paddingLeft="30dp" />
+
+            <TextView
+                android:id="@+id/muskodu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müşteri Kodu: "
+                android:textSize="12dp"
+                android:layout_below="@+id/musadi"
+                android:paddingLeft="30dp" />
+
+            <TextView
+                android:id="@+id/adresi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adres:"
+                android:textSize="12dp"
+                android:layout_below="@+id/fisno"
+                android:paddingLeft="30dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/line"></RelativeLayout>
+
+</RelativeLayout>

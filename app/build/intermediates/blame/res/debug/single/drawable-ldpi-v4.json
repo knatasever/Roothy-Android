@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\background_disabled_selected.9.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-ldpi\\background_disabled_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\background_pressed.9.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-ldpi\\background_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\background_selected.9.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-ldpi\\background_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\home.png",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\drawable-ldpi\\home.png"
+    }
+]

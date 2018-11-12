@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/send"
+        android:icon="@drawable/send"
+        android:title="Tahsilatı Gönder"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/logisticdetails"
+        android:icon="@drawable/info"
+        android:title="Sevkiyat Detayları"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/ic_action_directions"
+        android:title="@string/location"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/share"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/exit"
+        android:icon="@drawable/next"/>
+
+</menu>

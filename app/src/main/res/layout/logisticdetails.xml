@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="48dp"
+                    android:background="#dcdbdb"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/adet"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/spinner1"
+                    android:text="        Adet"
+                    android:textSize="20dp"
+                    android:textColor="@color/acikmavi"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/toplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/adet"
+                    android:text="       Toplam"
+                    android:textSize="20dp"
+                    android:textColor="@color/acikmavi"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/kredikarti"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/nakit"
+                    android:text="Kredi Kartı:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="7dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/kredikartiadedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/nakit"
+                    android:layout_toRightOf="@+id/kredikarti"
+                    android:text="Kredi Kartı Adedi:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:autoText="false"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/kredikartitoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/nakit"
+                    android:layout_toRightOf="@+id/kredikartiadedi"
+                    android:text="Kredi Kartı Toplam:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/nakit"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/spinner1"
+                    android:text="Nakit:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="7dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/nakitadedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/spinner1"
+                    android:layout_toRightOf="@+id/nakit"
+                    android:text="Nakit Adedi:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/nakittoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/spinner1"
+                    android:layout_toRightOf="@+id/nakitadedi"
+                    android:text="Nakit Toplam:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/veresiacikhesap"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/kredikarti"
+                    android:text="Veresi - Acik Hesap:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="7dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/veresiacikhesapadedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/kredikarti"
+                    android:layout_toRightOf="@+id/veresiacikhesap"
+                    android:text="Veresi - Acik Hesap Adedi:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/veresiacikhesaptoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/kredikarti"
+                    android:layout_toRightOf="@+id/veresiacikhesapadedi"
+                    android:text="Veresi - Acik Hesap Toplam:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/senet"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/veresiacikhesap"
+                    android:text="Senet:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="7dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/senetadedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/veresiacikhesap"
+                    android:layout_toRightOf="@+id/senet"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/senettoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/veresiacikhesap"
+                    android:layout_toRightOf="@+id/senetadedi"
+                    android:text="Senet Toplam:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/iptal"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/senet"
+                    android:text="İptal:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="7dp"
+                    android:autoText="false"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/iptaladedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/senet"
+                    android:layout_toRightOf="@+id/iptal"
+                    android:text="İptal Adedi:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/iptaltoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/senet"
+                    android:layout_toRightOf="@+id/iptaladedi"
+                    android:text="İptal Toplam:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/yapilantahsilat"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/iptal"
+                    android:text="Yapılan Tahsilat:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="7dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/yapilantahsilatadedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/iptal"
+                    android:layout_toRightOf="@+id/yapilantahsilat"
+                    android:text="Yapılan Tahsilat Adedi:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/yapilantahsilattoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/iptal"
+                    android:layout_toRightOf="@+id/yapilantahsilatadedi"
+                    android:text="Yapılan Tahsilat Toplam:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/yapilmayantahsilat"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/yapilantahsilat"
+                    android:text="Yapılmayan Tahsilat:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/yapilmayantahsilatadedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/yapilantahsilat"
+                    android:layout_toRightOf="@+id/yapilmayantahsilat"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/yapilmayantahsilattoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/yapilantahsilat"
+                    android:layout_toRightOf="@+id/yapilmayantahsilat"
+                    android:text="Yapılmayan Tahsilat Toplam:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/fatura"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/yapilmayantahsilat"
+                    android:text="Fatura:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/faturaadedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/yapilmayantahsilat"
+                    android:layout_toRightOf="@+id/fatura"
+                    android:text="Fatura Adedi:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/faturatoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/yapilmayantahsilat"
+                    android:layout_toRightOf="@+id/faturaadedi"
+                    android:text="Fatura Toplam:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/kasa"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/fatura"
+                    android:text="Kasa:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/kasaadedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/fatura"
+                    android:layout_toRightOf="@+id/kasa"
+                    android:text="Kasa Adedi:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/kasatoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/fatura"
+                    android:layout_toRightOf="@+id/kasaadedi"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/premix"
+                    android:textColor="@color/acikmavi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/kasa"
+                    android:text="Premix:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/premixadedi"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/kasa"
+                    android:layout_toRightOf="@+id/premix"
+                    android:text="-"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/premixtoplam"
+                    android:layout_width="@dimen/info"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/kasa"
+                    android:layout_toRightOf="@+id/premixadedi"
+                    android:text="Premix Toplam:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
+
+
+
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.1" />
+
+                <TextView
+            android:id="@+id/muskodu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Müşteri Kodu: "
+            android:textSize="20sp"
+            android:background="@drawable/line"
+                    android:textIsSelectable="false"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView2"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.1" />
+
+                <TextView
+            android:id="@+id/musadi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/muskodu"
+            android:text=" Müşteri Adı: "
+            android:textSize="20dip"
+            android:background="@drawable/line"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.1" />
+
+                <TextView
+            android:id="@+id/satistemsilcisikodu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+                    android:layout_below="@+id/musadi"
+            android:text=" Satış Temsilcisi: "
+            android:textSize="20dip"
+            android:background="@drawable/line"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView5"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.1" />
+
+                <TextView
+            android:id="@+id/adresi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=" Adres: "
+            android:textSize="20dp"
+            android:background="@drawable/line"
+            android:layout_below="@+id/satistemsilcisikodu"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView6"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.1" />
+
+                <TextView
+            android:id="@+id/fisno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+                    android:layout_below="@+id/adresi"
+            android:text=" Fiş No: "
+            android:textSize="20dp"
+                android:background="@drawable/line"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView11"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.1" />
+
+                <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/fisno"
+            android:entries="@array/spinnerarrays1"
+            android:prompt="@string/spinnerprompt1"
+            android:background="#dcdbdb"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView8"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+            android:id="@+id/odemetutaritext1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/spinner1"
+            android:text="Ödeme Tutarı 1:"
+            android:textSize="20dp"
+                    android:textColor="@color/acikmavi"
+                    android:layout_weight="1" />
+
+                <TextView
+            android:id="@+id/odemetutari1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/spinner1"
+            android:layout_toRightOf="@+id/odemetutaritext1"
+            android:text="Ödeme Tutarı"
+            android:textSize="20dp"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView13"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.1" />
+
+                <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/odemetutari1"
+                    android:entries="@array/spinnerarrays2"
+            android:prompt="@string/spinnerprompt2"
+                android:background="#dcdbdb"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView9"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+            android:id="@+id/odemetutaritext2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/spinner2"
+            android:text="Ödeme Tutarı 2:"
+            android:textSize="20dp"
+
+                    android:textColor="@color/acikmavi"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView12"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.2" />
+
+                <EditText
+            android:id="@+id/odemetutari2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/spinner2"
+            android:layout_toRightOf="@+id/odemetutaritext2"
+            android:hint="  Tutar Giriniz..."
+            android:enabled="false"
+            android:text="   "
+            android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:autoText="false"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView10"
+                    android:background="@drawable/ok_5dp"
+                    android:layout_weight="0.1" />
+
+                <TextView
+            android:id="@+id/toplamnet"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/odemetutaritext2"
+                    android:text="Toplam Net: "
+            android:textColor="@color/acikmavi"
+            android:textSize="35dp"
+                    android:layout_span="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#dcdbdb"
+                android:padding="10dp">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dip"
+                    android:text="KAYDET"
+                    android:id="@+id/kaydet"
+                    android:background="@drawable/btn1"
+                    android:textColor="#ffffff"
+                    android:layout_alignTop="@+id/gonder"
+                    android:layout_toRightOf="@+id/gonder"
+                    android:layout_toEndOf="@+id/gonder"
+                    android:layout_alignBottom="@+id/gonder"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:text="GÖNDER"
+                    android:id="@+id/gonder"
+                    android:background="@drawable/btn1"
+                    android:textColor="#ffffff"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

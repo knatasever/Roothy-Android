@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\main.xml",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\layout-normal\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\login.xml",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\layout-normal\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\salesdetails.xml",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\layout-normal\\salesdetails.xml"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\drawerlistitem.xml",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\layout-normal\\drawerlistitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\billlistview.xml",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\layout-normal\\billlistview.xml"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\logisticdetails.xml",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\layout-normal\\logisticdetails.xml"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\payments.xml",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\layout-normal\\payments.xml"
+    },
+    {
+        "merged": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\bills.xml",
+        "source": "C:\\Users\\knata\\Desktop\\projeler\\androidRoothy\\app\\src\\main\\res\\layout-normal\\bills.xml"
+    }
+]
